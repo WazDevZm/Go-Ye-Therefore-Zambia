@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sermons - Go Ye Therefore Zambia</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo"><i class="fas fa-cross"></i> Go Ye <span>Therefore</span></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="bible-study.html">Bible Study</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="sermons.html">Sermons</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sermons Hero -->
+    <section class="page-hero" style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1503764654157-72d97966f920?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80') no-repeat center center/cover;">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Sermon Library</h1>
+                <p>Browse our collection of sermons and Bible teachings</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sermons Content -->
+    <section class="sermons-page">
+        <div class="container">
+            <div class="sermon-categories">
+                <button class="category-btn active" data-category="all">All Sermons</button>
+                <button class="category-btn" data-category="faith">Faith</button>
+                <button class="category-btn" data-category="holiness">Holiness</button>
+                <button class="category-btn" data-category="leadership">Leadership</button>
+                <button class="category-btn" data-category="family">Family</button>
+                <button class="category-btn" data-category="prayer">Prayer</button>
+            </div>
+
+            <div class="sermon-grid">
+                <!-- Faith Category -->
+                <div class="sermon-item" data-category="faith" id="power-of-faith">
+                    <div class="sermon-video">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="sermon-details">
+                        <h4>The Power of Faith</h4>
+                        <p>Discover how faith can move mountains and transform your life. This message explores Hebrews 11 and what it means to walk by faith.</p>
+                        <div class="sermon-meta">
+                            <span><i class="fas fa-user"></i> Pastor John Doe</span>
+                            <span><i class="fas fa-calendar"></i> March 15, 2025</span>
+                            <span><i class="fas fa-tag"></i> Faith</span>
+                        </div>
+                        <a href="sermon-power-of-faith.html" class="btn btn-sm">Watch Full Sermon</a>
+                    </div>
+                </div>
+
+                <!-- Holiness Category -->
+                <div class="sermon-item" data-category="holiness" id="living-in-holiness">
+                    <div class="sermon-video">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="sermon-details">
+                        <h4>Living in Holiness</h4>
+                        <p>Understanding God's call to holiness in everyday life. Based on 1 Peter 1:13-16, this message challenges us to live set apart for God.</p>
+                        <div class="sermon-meta">
+                            <span><i class="fas fa-user"></i> Pastor Mary Smith</span>
+                            <span><i class="fas fa-calendar"></i> February 28, 2025</span>
+                            <span><i class="fas fa-tag"></i> Holiness</span>
+                        </div>
+                        <a href="sermon-living-in-holiness.html" class="btn btn-sm">Watch Full Sermon</a>
+                    </div>
+                </div>
+
+                <!-- Leadership Category -->
+                <div class="sermon-item" data-category="leadership" id="servant-leadership">
+                    <div class="sermon-video">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="sermon-details">
+                        <h4>Servant Leadership</h4>
+                        <p>Biblical principles for leading like Jesus. This message examines Mark 10:35-45 and what it means to lead by serving others.</p>
+                        <div class="sermon-meta">
+                            <span><i class="fas fa-user"></i> Pastor James Wilson</span>
+                            <span><i class="fas fa-calendar"></i> March 29, 2025</span>
+                            <span><i class="fas fa-tag"></i> Leadership</span>
+                        </div>
+                        <a href="sermon-servant-leadership.html" class="btn btn-sm">Watch Full Sermon</a>
+                    </div>
+                </div>
+
+                <!-- Family Category -->
+                <div class="sermon-item" data-category="family" id="godly-family">
+                    <div class="sermon-video">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="sermon-details">
+                        <h4>Building a Godly Family</h4>
+                        <p>Practical biblical principles for strengthening your family. Based on Joshua 24:15, this message challenges families to serve the Lord together.</p>
+                        <div class="sermon-meta">
+                            <span><i class="fas fa-user"></i> Pastor Mary Smith</span>
+                            <span><i class="fas fa-calendar"></i> January 18, 2025</span>
+                            <span><i class="fas fa-tag"></i> Family</span>
+                        </div>
+                        <a href="sermon-godly-family.html" class="btn btn-sm">Watch Full Sermon</a>
+                    </div>
+                </div>
+
+                <!-- Prayer Category -->
+                <div class="sermon-item" data-category="prayer" id="power-prayer">
+                    <div class="sermon-video">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="sermon-details">
+                        <h4>The Power of Prayer</h4>
+                        <p>Discover how to develop a powerful prayer life. This message explores James 5:13-18 and the effectiveness of fervent prayer.</p>
+                        <div class="sermon-meta">
+                            <span><i class="fas fa-user"></i> Pastor John Doe</span>
+                            <span><i class="fas fa-calendar"></i> February 5, 2025</span>
+                            <span><i class="fas fa-tag"></i> Prayer</span>
+                        </div>
+                        <a href="sermon-power-prayer.html" class="btn btn-sm">Watch Full Sermon</a>
+                    </div>
+                </div>
+
+                <!-- Faith Category -->
+                <div class="sermon-item" data-category="faith" id="faith-works">
+                    <div class="sermon-video">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="sermon-details">
+                        <h4>Faith That Works</h4>
+                        <p>Exploring the relationship between faith and works from James 2:14-26. This message shows how genuine faith always produces good works.</p>
+                        <div class="sermon-meta">
+                            <span><i class="fas fa-user"></i> Pastor James Wilson</span>
+                            <span><i class="fas fa-calendar"></i> March 8, 2025</span>
+                            <span><i class="fas fa-tag"></i> Faith</span>
+                        </div>
+                        <a href="sermon-faith-works.html" class="btn btn-sm">Watch Full Sermon</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pagination">
+                <a href="#" class="btn btn-outline"><i class="fas fa-arrow-left"></i> Previous</a>
+                <a href="#" class="btn">Next <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sermon Series -->
+    <section class="series-section" style="background-color: #f8f9fa; padding: 80px 0;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sermon Series</h2>
+                <p>Explore our current and past sermon series</p>
+            </div>
+            <div class="series-grid">
+                <div class="series-card">
+                    <div class="series-image">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Faith Foundations">
+                    </div>
+                    <div class="series-details">
+                        <h3>Faith Foundations</h3>
+                        <p>A 6-part series on the core doctrines of the Christian faith.</p>
+                        <a href="series-faith-foundations.html" class="btn btn-sm">View Series</a>
+                    </div>
+                </div>
+                <div class="series-card">
+                    <div class="series-image">
+                        <img src="https://images.unsplash.com/photo-1503764654157-72d97966f920?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80" alt="Prayer Power">
+                    </div>
+                    <div class="series-details">
+                        <h3>Prayer Power</h3>
+                        <p>Discover the transformative power of prayer in this 4-part series.</p>
+                        <a href="series-prayer-power.html" class="btn btn-sm">View Series</a>
+                    </div>
+                </div>
+                <div class="series-card">
+                    <div class="series-image">
+                        <img src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Kingdom Living">
+                    </div>
+                    <div class="series-details">
+                        <h3>Kingdom Living</h3>
+                        <p>Learn how to live as citizens of God's kingdom in this 8-part series.</p>
+                        <a href="series-kingdom-living.html" class="btn btn-sm">View Series</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <a href="index.html" class="footer-logo"><i class="fas fa-cross"></i> Go Ye <span>Therefore</span></a>
+                    <div class="footer-about">
+                        <p>Go Ye Therefore Zambia is a ministry dedicated to spreading the Gospel throughout Zambia and beyond, transforming lives through the word of God.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="bible-study.html"><i class="fas fa-chevron-right"></i> Bible Study</a></li>
+                        <li><a href="resources.html"><i class="fas fa-chevron-right"></i> Resources</a></li>
+                        <li><a href="sermons.html"><i class="fas fa-chevron-right"></i> Sermons</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="resources.html"><i class="fas fa-chevron-right"></i> e-Books</a></li>
+                        <li><a href="resources.html"><i class="fas fa-chevron-right"></i> Study Guides</a></li>
+                        <li><a href="resources.html"><i class="fas fa-chevron-right"></i> Devotionals</a></li>
+                        <li><a href="resources.html"><i class="fas fa-chevron-right"></i> Sermon Notes</a></li>
+                        <li><a href="resources.html"><i class="fas fa-chevron-right"></i> Newsletter</a></li>
+                        <li><a href="resources.html"><i class="fas fa-chevron-right"></i> Annual Report</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for updates and spiritual nourishment.</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Your Email" required>
+                        <button type="submit" class="newsletter-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Go Ye Therefore Zambia. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
